@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30524.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmGenerator", "MvvmGenerator\MvvmGenerator.csproj", "{6F5A7DFD-066C-4D30-BEB8-FC24DAB2D7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmGenerator", "MvvmGenerator\MvvmGenerator.csproj", "{6F5A7DFD-066C-4D30-BEB8-FC24DAB2D7DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{73784E00-D085-4168-BB40-40F2A9B497C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmGenerator.Tests", "MvvmGenerator.Tests\MvvmGenerator.Tests.csproj", "{7697BEC3-8CE2-4AA0-8945-94874F6833F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmGenerator.Tests", "MvvmGenerator.Tests\MvvmGenerator.Tests.csproj", "{7697BEC3-8CE2-4AA0-8945-94874F6833F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmGenerator.WpfTests", "MvvmGenerator.WpfTests\MvvmGenerator.WpfTests.csproj", "{6FFE13A3-979D-4B44-AA91-D8C4623BFB1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{7697BEC3-8CE2-4AA0-8945-94874F6833F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7697BEC3-8CE2-4AA0-8945-94874F6833F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7697BEC3-8CE2-4AA0-8945-94874F6833F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFE13A3-979D-4B44-AA91-D8C4623BFB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFE13A3-979D-4B44-AA91-D8C4623BFB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFE13A3-979D-4B44-AA91-D8C4623BFB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFE13A3-979D-4B44-AA91-D8C4623BFB1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7697BEC3-8CE2-4AA0-8945-94874F6833F0} = {73784E00-D085-4168-BB40-40F2A9B497C0}
+		{6FFE13A3-979D-4B44-AA91-D8C4623BFB1A} = {73784E00-D085-4168-BB40-40F2A9B497C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E0857F3-290F-4BC1-B6FD-D2B80035B8E3}
