@@ -7,6 +7,17 @@ namespace MvvmGenerator.Tests
         static void Main(string[] args)
         {
             var vm = new MainPageViewModel();
+
+            vm.PropertyChanged += (o, e) =>
+                  Console.WriteLine($"{e.PropertyName} Property Changed");
+
+            Console.WriteLine($"FullName is [{vm.FullName}]");
+
+            vm.Xxxx = "Anders ";
+            Console.WriteLine($"FullName is [{vm.FullName}]");
+
+            vm.LastName = "Hejlsberg";
+            Console.WriteLine($"FullName is [{vm.FullName}]");
         }
     }
 
