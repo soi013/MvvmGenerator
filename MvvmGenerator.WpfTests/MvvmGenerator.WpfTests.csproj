@@ -5,10 +5,10 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <LangVersion>preview</LangVersion>
     <UseWPF>true</UseWPF>
+    <IncludePackageReferencesDuringMarkupCompilation>true</IncludePackageReferencesDuringMarkupCompilation>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MvvmGenerator\MvvmGenerator.csproj" />
+    <PackageReference Include="MvvmGenerator" Version="1.2.9" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
   </ItemGroup>
-
 </Project>
